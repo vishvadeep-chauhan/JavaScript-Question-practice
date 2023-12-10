@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- array :- collection of element  -->
+    <!-- int=[10,20,30,40]; 
+    string["vishv", "55"]; -->
+
+    <!-- let a = [10,"vishv", "singh", 99, 86.55]; -->
+
+    <p id="demo"></p>
+    <script>
+      let a = [10, "vishv", "singh", "banana", 99, 86.55];
+      document.getElementById("demo").innerHTML = a.length;
+    </script>
+
+    <p id="demo1"></p>
+    <script>
+      let b = [10, "vishv", "singh", "banana", 99, 86.55];
+      document.getElementById("demo1").innerHTML = b.indexOf("singh");
+    </script>
+
+    <!-- array in the form of list  -->
+    <p id="demo2"></p>
+    <script>
+      let c = [10, "vishv", "singh", "banana", 99, 86.55];
+      c[3] = "anshu";
+      c[1] = "sudhir Kumar";
+
+      let arr = c.length;
+      let text = "<ul>";
+      for (let i = 0; i < arr; i++) {
+        text += "<li>" + a[i] + "</li>";
+      }
+
+      document.getElementById("demo2").innerHTML = text;
+    </script>
+
+    <!-- add a value in array list push -->
+    <p id="demo3"></p>
+    <script>
+      let d = [10, "vishv", "singh", "banana", 99, 86.55];
+      d.push("unknown");
+      document.getElementById("demo3").innerHTML = d;
+    </script>
+
+    <!-- remove a value in array list pop  -->
+    <p id="demo4"></p>
+    <script>
+      let e = [10, "vishv", "singh", "banana", 99, 86.55];
+      e.pop("unknown");
+      document.getElementById("demo4").innerHTML = e;
+    </script>
+
+    shift and unshift is used to add and remove value in starting
+
+    <p id="demo5"></p>
+    <script>
+      let f = [10, "vishv", "singh", "banana", 99, 86.55];
+      f.unshift("hrishav"); //to add element in starting
+      f.shift(); // remove element in starting
+
+      document.getElementById("demo5").innerHTML = f;
+    </script>
+
+    <p id="demo6"></p>
+    <button onclick="cli1()">click here to add value</button>
+    <script>
+      let arr1 = [10, 20, 30, 40, 50];
+      document.getElementById("demo6").innerHTML = arr1;
+
+      function cli1() {
+        let arr1 = [10, 20, 30, 40, 50];
+        arr1.push("New insertion value");
+        document.getElementById("demo6").innerHTML = arr1;
+      }
+    </script>
+
+    <p id="demo7"></p>
+    <button onclick="cli2()">click here to add value</button>
+    <script>
+      let arr2 = [10, 20, 30, 40, 50];
+      document.getElementById("demo7").innerHTML = arr2;
+
+      function cli2() {
+        arr2.push("New insertion value");
+        document.getElementById("demo7").innerHTML = arr2;
+      }
+    </script>
+
+    <p id="demo8"></p>
+    <script>
+      let arr3 = [
+        "saurabh",
+        "sudhir",
+        "hrishabh",
+        "tanushi",
+        "ayush",
+        "nandan",
+        "sri",
+        "nigon",
+      ];
+
+      document.getElementById("demo8").innerHTML = arr3.sort();
+    </script>
+
+    <!-- ----------------------------------------------------------- -->
+
+    <p id="demo9"></p>
+    <button onclick="cli3()">click here to add value</button>
+    <script>
+      let arr4 = [
+        "saurabh",
+        "sudhir",
+        "hrishabh",
+        "tanushi",
+        "ayush",
+        "nandan",
+        "sri",
+        "nigon",
+      ];
+
+      document.getElementById("demo8").innerHTML = arr4;
+
+      function cli3() {
+        let arr4 = [
+          "saurabh",
+          "sudhir",
+          "hrishabh",
+          "tanushi",
+          "ayush",
+          "nandan",
+          "sri",
+          "nigon",
+        ];
+
+        // document.getElementById("demo9").innerHTML = arr4.sort();
+        document.getElementById("demo9").innerHTML = arr4.reverse();
+      }
+    </script>
+
+    <p id="demo10"></p>
+
+    <script>
+      let x = [10, 20, 30];
+      let y = [40, 50, 60];
+      let z = x.concat(y);
+      document.getElementById("demo10").innerHTML = z;
+      document.getElementById("demo10").innerHTML = x[0] + y[1];
+    </script>
+    <!-- Q - print even no  -->
+    <p id="demo11"></p>
+
+    <script>
+      let l = "";
+      for (let i = 0; i <= 10; i++) {
+        if (i % 2 == 0) {
+          document.getElementById("demo11").innerHTML = l +=
+            i + " EVEN NO" + "<br>";
+        }
+      }
+    </script>
+
+    <p id="demo12"></p>
+
+    <script>
+      let k = "";
+      for (let i = 15; i <= 21; i++) {
+        if (i % 2) {
+          document.getElementById("demo11").innerHTML = k +=
+            i + " odd no" + "<br>";
+        }
+      }
+    </script>
+    <p id="demo13"></p>
+
+    <script>
+      let m = "";
+      for (let i = 15; i <= 21; i++) {
+        if (i % 2 != 0) {
+          document.getElementById("demo11").innerHTML = m +=
+            i + " odd no" + "<br>";
+        }
+      }
+    </script>
+
+    <!-- q- write a program to print table of 2 = 2 x 1 = 2 -->
+
+    <p id="demo14"></p>
+
+    <script>
+      let n = "";
+      for (let i = 1; i <= 10; i++) {
+        document.getElementById("demo14").innerHTML = n +=
+          "2 x " + i + " = " + 2 * i + "<br>";
+      }
+    </script>
+
+    <p id="demo15"></p>
+
+    <script>
+      let myarray = [
+        "hrishabh",
+        "saurabh",
+        "75",
+        "tanushi",
+        "ayush",
+        "89",
+        "10",
+        "nigon",
+      ];
+      for (let i = 1; i <= myarray2.length; i++) {
+        document.getElementById("demo15").innerHTML = myarray;
+      }
+    </script>
+
+    <p id="demo16"></p>
+    <script>
+      let myarray2 = [
+        "hrishabh",
+        "saurabh",
+        75,
+        "tanushi",
+        "ayush",
+        89,
+        "10",
+        "nigon",
+      ];
+
+      for (let i = 0; i < myarray2.length; i++) {
+        document.getElementById("demo16").innerHTML =
+          myarray2[2] + myarray2[5] + "<br>";
+      }
+    </script>
+
+    <!-- q- write a program those value are greater than 25 -->
+
+    <p id="demo17"></p>
+    <script>
+      let q = "";
+      let myarray3 = [10, 20, 30, 40, 50];
+
+      for (let i = 0; i < myarray3.length; i++) {
+        if (myarray3[i] > 25) {
+          document.getElementById("demo17").innerHTML = q +=
+            myarray3[i] + " is greater than 25" + "<br>";
+        }
+      }
+    </script>
+  </body>
+</html>

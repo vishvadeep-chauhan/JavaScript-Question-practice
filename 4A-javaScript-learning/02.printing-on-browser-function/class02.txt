@@ -1,0 +1,19 @@
+command: console.log(.js)
+browser: 
+
+document.write();------------------>BUG(Interview Question)
+"BUG": when you call any function by the help of document.write so its overwrite the HTML Content
+
+onclick: is the function which is used to call any script function.
+
+function: function is used to create the qualaities which you want to show before or after clicking on button.
+how to declare the function
+-----------------------------
+
+we must have to use function keyword with function name parantheses after we have to declare body and this body is very important because those function which is inside the body that is your calling output.
+
+
+2. document.getElementById("").innerHTML=""
+
+ques. write a program to change the color of paragraph after clicking on button.
+ques. write a program to hide the paragraph after clicking on button...?

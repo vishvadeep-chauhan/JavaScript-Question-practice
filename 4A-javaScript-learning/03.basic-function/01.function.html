@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').src='./on.png'"
+    >
+      light on
+    </button>
+    <img src="./off.png" id="demo" alt="" />
+    <button
+      type="button"
+      onclick="document.getElementById('demo').src='./off.png'"
+    >
+      light off
+    </button>
+
+    <br /><br />
+
+    <button
+      type="button"
+      onclick="document.getElementById('text_change').innerHTML = 'chauhan'"
+    >
+      click here to text change
+    </button>
+    <p>Vishvadeep <span id="text_change">singh</span></p>
+
+    <br /><br />
+    <hr />
+    <br />
+
+    <button type="button" onclick="textChange()">light on</button>
+    <img src="./off.png" id="demo1" alt="" />
+    <button type="button" onclick="textChange1()">light off</button>
+
+    <script>
+      function textChange() {
+        document.getElementById("demo1").innerHTML = "src='./off.png";
+      }
+
+      function textChange1() {
+        document.getElementById("demo2").innerHTML = "src='./on.png";
+      }
+    </script>
+  </body>
+</html>

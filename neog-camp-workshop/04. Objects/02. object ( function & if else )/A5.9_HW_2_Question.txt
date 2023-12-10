@@ -1,0 +1,40 @@
+# A5.9_HW_2
+
+## Exercise 1
+
+Write a function named **`printBookDetails`** that takes a book object as an argument. Book object has 4 properties title as “The Great Gatsby”, author as “F. Scott Fitzgerald”, genre as “Fiction, Classic” and pages as 650.
+
+1.1 Check if the number of pages in the book is greater than or equal to 500. If it is, then print to the console, “The book, {title} is long” otherwise, it should print “The book, {title} is not long”.
+
+1.2 Add a property `cover` to the book object. Assign the value `“Hard Cover”` to it. Print the cover to console in the format: “The book, {title} has {cover}.”
+
+1.3 If the book has hard cover and the number of pages is more than 300, console a message in the format: “The book, {title} is heavy”.  Otherwise, print a message “The book, {title} is not heavy.”
+
+## Exercise 2
+
+Write a function named **`printWeatherData`** that takes a `weatherData` object as an argument. The weatherData object has properties city, temperature, humidity and weatherCondition. Assign city as “Tokyo”, temperature as “28°C” and humidity as 70 (70 percent) and weatherCondition to `“Partly Cloudy”`.
+
+2.1 Print the `weatherData` object to console.
+
+2.2 Create a new object `newWeatherData` and assign to it the `weatherData` object. Do an equality check if `newWeatherData` and `weatherData` are the same object or not and print the result to the console.
+
+2.3 Do a check in the `newWeatherData` object, if humidity is greater than 65, change the `weatherCondition` property to `“Cloudy"`. Print the  `newWeatherData` object to the console.
+
+## Exercise 3
+
+Write a function that takes two objects book1 and book2 as argument. 
+
+Both objects have properties `title` and `pages`. book1 title is “To Kill a Mockingbird” and the pages is 281. book2 title is "1984” and the pages is 328.
+
+Compare the number of pages of book1 and book2, and return true if number of pages of book1 is greater than book2, otherwise return false. Print the result to the console.
+
+## Exercise 4
+
+Write a function named `compareBooks` that takes two book objects as argument. Books has 3 properties, title, author and numberOfPages.  Book 1 title is “Animal Farm”, author is “George Orwell” and numberOfPages is 140. Book 2 title is "Coming Up for Air”, author is “George Orwell” and numberOfPages is 210.
+
+
+4.1 Print the book1 and book2 objects to the console.
+
+4.2 If the number of pages in book1 is more than book2, print to the console, “{title of book 1} is thicker than {title of book 2}”. Otherwise print, “{title of book 2} is thicker than {title of book 1}”
+
+4.3 If the author of both the books is same, print to the console “Both books are written by same author, {author}.” Otherwise print to the console, “The books are written by different authors.”

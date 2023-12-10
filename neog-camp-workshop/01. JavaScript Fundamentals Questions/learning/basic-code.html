@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- sum on the browser -->
+    <button type="button" onclick="sum()">click here to sum</button>
+    <p>hi this is printing function on html</p>
+    <p id="vishv"></p>
+
+    <!-- ------------------------- -->
+    <!-- text big  -->
+    <button type="button" onclick="textBig()">click here to sum</button>
+    <p id="idOfText">hi this is printing function on html</p>
+
+    <script>
+      // sum on the browser
+
+      function sum() {
+        document.getElementById("vishv").innerHTML = 50 + 60;
+      }
+
+      <!--------------------------- -->
+      // text big
+
+      function textBig() {
+        document.getElementById("idOfText").style.fontSize = "50px";
+      }
+
+      // ----------------------------
+      // text color change
+      function textHide() {
+        document.getElementById("idOfText2").style.fontSize = "50px";
+      }
+
+      // -----------------------------------
+      // text hide
+      function textHide() {
+        document.getElementById("idOfText2").style.fontSize = "50px";
+      }
+    </script>
+  </body>
+</html>

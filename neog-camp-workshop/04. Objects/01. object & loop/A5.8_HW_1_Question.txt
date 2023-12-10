@@ -1,0 +1,36 @@
+A5.8_HW_1
+
+## Exercise 1
+
+Define an object 'animal' with three properties, `name, averageWeight and sound`. Assign the value for name as `“Lion”`, averageWeight as `190` and value for sound as `“Roar”`.
+
+1.1 Console the 'name' property of the 'animal' object.
+
+1.2 Console the 'averageWeight' property of the 'animal' object.
+
+1.3 Console the 'sound' property of the 'animal' object.
+
+1.4 Change the value of `averageWeight` property of the 'animal' object to `210`. Console the entire animal object.
+
+1.5 Add one more property to the 'animal' object, `diet`. Assign the value for diet as `“Carnivore”`.
+
+1.6 Use for-in loop to print all properties of the 'animal' object.
+
+
+----------------------------------------------------------------
+
+## Exercise 2:
+
+Define an object 'movie' with two properties, `title and director`. Assign the values, title as `“Inception”` and director as `“Christopher Nolan”`.
+
+2.1: Add a property `year` to the ‘movie’ object and assign it a value `2010`. Print the year property to the console.
+
+2.2  Add a property `duration` to the ‘movie’ object and assign it a value `154`. Print the duration property to the console.
+
+2.3: Change the 'duration' property of the 'movie' object to `148` and print updated duration to the console.
+
+2.4: Add 1 to the 'year' property of the 'movie' object and print the updated year to the console.
+
+2.5: Print all properties of the 'movie' object using for-in loop.
+
+

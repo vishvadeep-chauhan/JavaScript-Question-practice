@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Q1: why javaScript is used for ? (2 mark)</h3>
+    <p>
+      ans: javaScript is used to add interactivity to web pages and many perform
+      various things like 
+      <ol>
+        <li > mobile app development </li>
+        <li > game development </li>
+        <li > desktop app development </li>
+        <li > web development </li>
+        <li > web application development </li>
+        <li > server-side development... etc</li>
+        
+      </ol>
+       
+    </p>
+
+    <h3>Q2: what is the difference between console log, document.write and document.getElementById... with syntax(3 marks) </h3>
+
+    <p>
+      ans: 
+      <ol>
+        <li>console.log() :- it is used for print the variable in the console 
+            <br>
+            syntax: console.log(variable_name)
+        </li>
+        <li>document.write() :- it is used to write the html direct to the web pages it is not recommended because it will remove the entire  web content
+        <br>
+        syntax: document.write("html code")
+        </li>
+        <li>document.getElementById() is used to get the element by id it will show the output in web page
+        <br>
+        syntax: document.getElementById("id_name").innerHTML = "html code" 
+    </li>
+      </ol>
+
+    </p>
+
+    <h3>Q3. write a program to add two number by the help of onclick functions..?(2 marks)
+      <br>
+      <button onclick="add()">click me</button>
+      <p id="demo"></p>
+      <script>
+        function add(){
+          var a = 10;
+          var b = 20;
+          var c = a+b;
+          document.getElementById("demo").innerHTML = c;
+        }
+      </script>
+
+        4. write a program to create a function to print your name in alert after click onclick button(2 marks)
+
+    </h3>
+    <p>
+      ans: 
+      <br>
+      <button onclick="function0()">click me</button>
+      <script>
+        function function0(){
+          alert("vishvadeep chauhan");
+        }
+      </script>
+    </p>
+    <h3>
+        5. what is use of let keyword...?(1 mark)
+    </h3>
+    <p>
+      ans: 
+      let keyword is used to declare the variable in javaScript 
+    </p>
+    <h3>
+        6. write a program to create the condition to print candidate is pass or fail
+passing criteria(=>350)(2 marks)
+
+    </h3>
+    <p>
+      ans: 
+      <br>
+      <button onclick="function1()">click me</button>
+      <script>
+        function function1(){
+          var marks = 350;
+          if(marks>=350){
+            alert("pass");
+          }
+          else{
+            alert("fail");
+          }
+        }
+      </script>
+    </p>
+    <h3>
+        7. what is the symptoms of an object...? write down and express everything which are you know about the object(5 marks)
+    </h3>
+    <p>
+      ans: object is a collection like we have collection of properties collection of key value pairs collection of variables 
+    </p>
+
+    <h3>
+        8. can we call the function inside an object if yes so write down the program..(3 marks)
+    </h3>
+    <p>
+      ans: 
+      <br>
+      <button onclick="function2()">click me</button>
+      <script>
+        function function2(){
+          var person = {
+            firstName: "vishvadeep",
+            lastName: "chauhan",
+            fullName: function() {
+              return this.firstName + " " + this.lastName;
+            }
+          };
+          alert(person.fullName());
+        }
+      </script>
+
+    </p>
+
+</body>
+</html>
