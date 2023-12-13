@@ -1,0 +1,61 @@
+Day1 JavaScript Questions  What are the different data types present in javascript?
+What are the JavaScript Engines?
+Explain ECMA in JS.
+Why We use JavaScript?
+What is JavaScript? And also Explain the histroy of JavaScript?
+What is DOM in js?  
+
+
+answers:
+------------------------------------------------------------
+What are the different data types present in JavaScript?
+JavaScript has several data types, which can be categorized into two main groups: primitive types and object types.
+
+Primitive Types:
+Number: Represents numeric values.
+String: Represents textual data.
+Boolean: Represents either true or false.
+Undefined: Represents the absence of a value or an uninitialized variable.
+Null: Represents the absence of any object value.
+Symbol: Introduced in ECMAScript 6, represents a unique identifier.
+Object Types:
+Object: The most general data type with key-value pairs.
+Array: Represents an ordered list of values.
+Function: Represents a reusable set of statements.
+
+------------------------------------------------------------
+
+What are the JavaScript Engines?
+JavaScript engines are responsible for executing JavaScript code. Some popular engines include:
+
+V8: Developed by Google, used in Chrome and Node.js.
+SpiderMonkey: Developed by Mozilla, used in Firefox.
+Chakra: Developed by Microsoft, used in older versions of Edge.
+JavaScriptCore (Nitro): Developed by Apple, used in Safari.
+
+------------------------------------------------------------
+
+Explain ECMA in JS.
+ECMA (European Computer Manufacturers Association) is a standards organization that develops and oversees standards, including those for scripting languages. In the context of JavaScript, ECMA refers to the ECMAScript standard, which specifies the scripting language features. JavaScript is often referred to as ECMAScript, and versions of JavaScript are closely tied to ECMAScript versions.
+
+------------------------------------------------------------
+
+Why do we use JavaScript?
+JavaScript is a versatile programming language primarily used for:
+
+Web Development: Adding interactivity, dynamic content, and client-side scripting to websites.
+Server-Side Development: Using Node.js to build server-side applications.
+Mobile App Development: Using frameworks like React Native or Ionic.
+Game Development: With libraries like Phaser or game engines like Unity.
+Automation: Using tools like Selenium for browser automation.
+IoT (Internet of Things): Building applications for connected devices.
+
+------------------------------------------------------------
+
+What is JavaScript? Explain the history of JavaScript?
+JavaScript is a high-level, interpreted programming language designed for web development. It was created by Brendan Eich while working at Netscape and was first released in 1995. Initially named "Mocha," it was later renamed to "LiveScript" and finally "JavaScript" to ride on the popularity of Java at the time. Despite the name, JavaScript and Java are distinct languages. JavaScript became a standard with the ECMAScript specification, and it has since evolved with regular updates, adding new features and improving performance.
+
+------------------------------------------------------------
+
+What is DOM in JS?
+DOM stands for Document Object Model. In the context of JavaScript, the DOM is a programming interface that represents the structure of a document as a tree of objects. The document could be an HTML or XML document. The DOM allows scripts to dynamically access and manipulate the content, structure, and style of a document. JavaScript can be used to modify the DOM, making web pages interactive and dynamic. For example, you can use JavaScript to change the content of an HTML element, create new elements, or respond to user actions on a webpage.

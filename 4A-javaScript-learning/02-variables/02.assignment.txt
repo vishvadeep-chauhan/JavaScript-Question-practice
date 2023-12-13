@@ -1,0 +1,45 @@
+What are the differences between var, let and const?
+Difference between undefined vs not defined vs NaN
+What is difference between null and undefined and where to use what?
+What is execution context
+What is use of prompt in JavaScript? 
+Why JavaScript is Dynamic Language?
+
+--------------------------------------------
+answers:
+--------------------------------------------
+
+Differences between var, let, and const:
+
+var: Function-scoped, and is hoisted to the top of its function or global scope. It can be redeclared and reassigned.
+let: Block-scoped, and is hoisted to the top of its block. It can be reassigned but not redeclared within the same scope.
+const: Also block-scoped, but it cannot be reassigned after declaration. However, the object or array it points to can be mutated.
+
+--------------------------------------------
+Difference between undefined vs not defined vs NaN:
+
+undefined: A variable that has been declared but has not been assigned a value is of type undefined.
+not defined: Typically refers to a variable that has not been declared at all.
+NaN (Not a Number): Represents a value that is not a legal number.
+
+--------------------------------------------
+Difference between null and undefined and where to use what:
+
+null: It is an assignment value representing no value or no object. It needs to be explicitly assigned.
+undefined: A variable that has been declared but not assigned a value is undefined by default.
+Use case: Use null when you want to explicitly represent the absence of a value, and use undefined when a variable has been declared but not yet assigned a value.
+
+--------------------------------------------
+What is an execution context:
+
+An execution context is an abstract concept used to manage the execution of code in JavaScript. Each time a function is called, a new execution context is created. It consists of the variable environment (including variables, functions, and the this reference), a reference to its outer environment, and a call stack.
+
+--------------------------------------------
+What is the use of prompt in JavaScript:
+
+The prompt function is used to display a dialog box that prompts the user for input. It takes two parameters: the prompt message and an optional default value. The user can input a value, which is then returned by the prompt function. It's often used to gather information from the user in a simple and interactive way.
+
+--------------------------------------------
+Why JavaScript is a Dynamic Language:
+
+JavaScript is considered dynamic because it is loosely typed and supports dynamic typing. This means that variables can hold values of any type, and their types can be changed at runtime. For example, a variable initially holding a number can later be assigned a string without explicitly specifying its type. This flexibility allows for more dynamic and adaptable coding but requires careful handling to avoid unexpected behaviors. Additionally, JavaScript is dynamically interpreted at runtime, which contributes to its dynamic nature.
