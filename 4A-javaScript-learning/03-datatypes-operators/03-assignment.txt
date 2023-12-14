@@ -1,0 +1,95 @@
+Write the Code for all Data types.
+What are the uses of JavaScript Operators?
+Explain the Assignment Operator.
+Explain the all Arithmetic Operators.
+What are the Binary Operators in js.
+Explain the Pre-Increment and Post Increment in js.
+
+-------------------------------------------------
+. Code for All Data Types in JavaScript:
+JavaScript has several data types, including:
+
+Primitive Data Types:
+
+String
+Number
+Boolean
+Null
+Undefined
+Symbol (introduced in ECMAScript 6)
+Reference Data Types:
+
+Object
+Array
+Function
+Here's an example code snippet demonstrating the use of these data types:
+
+// Primitive Data Types
+let str = "Hello, World!"; // String
+let num = 42;             // Number
+let bool = true;           // Boolean
+let nul = null;            // Null
+let undef;                 // Undefined
+
+// Symbol
+const sym = Symbol('uniqueSymbol');
+
+// Reference Data Types
+let obj = { key: 'value' }; // Object
+let arr = [1, 2, 3];         // Array
+function exampleFunc() {     // Function
+  // Function body
+}
+
+-----------------------------------------------
+2. Uses of JavaScript Operators:
+JavaScript operators perform operations on variables and values. They can be categorized into various types:
+
+Arithmetic Operators
+Comparison Operators
+Logical Operators
+Assignment Operators
+Bitwise Operators
+Unary Operators
+Ternary (Conditional) Operator
+
+-------------------------------------------------
+3. Assignment Operator:
+The assignment operator (=) is used to assign a value to a variable. For example:
+let x = 10; // Assigning the value 10 to variable x
+
+-------------------------------------------------
+4. Arithmetic Operators:
+Arithmetic operators perform mathematical operations. Here are some examples:
+
+let a = 5;
+let b = 2;
+
+let sum = a + b;    // Addition
+let diff = a - b;   // Subtraction
+let product = a * b; // Multiplication
+let quotient = a / b;// Division
+let remainder = a % b;// Modulus (remainder of division)
+
+-------------------------------------------------
+5. Binary Operators in JavaScript:
+Binary operators work with two operands. Examples include arithmetic operators (+, -, *, /), comparison operators (==, ===, !=, !==), logical operators (&&, ||), etc.
+
+
+-------------------------------------------------
+6. Pre-Increment and Post-Increment in JavaScript:
+Pre-increment (++i) and post-increment (i++) operators are used to increase the value of a variable by 1. The difference lies in when the increment operation takes place:
+
+Pre-increment: Increments the value before the variable is used in an expression.
+
+let i = 5;
+let preIncrement = ++i; // i is incremented before it's used
+console.log(preIncrement); // Output: 6
+
+Post-increment: Uses the current value of the variable in an expression and then increments the variable.
+let j = 5;
+let postIncrement = j++; // j is used, and then incremented
+console.log(postIncrement); // Output: 5
+console.log(j); // Output: 6
+
+-------------------------------------------------
