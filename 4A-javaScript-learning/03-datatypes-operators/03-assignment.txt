@@ -73,12 +73,15 @@ let remainder = a % b;// Modulus (remainder of division)
 
 -------------------------------------------------
 5. Binary Operators in JavaScript:
-Binary operators work with two operands. Examples include arithmetic operators (+, -, *, /), comparison operators (==, ===, !=, !==), logical operators (&&, ||), etc.
+Binary operators work with two operands.
+ Examples include arithmetic operators (+, -, *, /),
+  comparison operators (==, ===, !=, !==), logical operators (&&, ||), etc.
 
 
 -------------------------------------------------
 6. Pre-Increment and Post-Increment in JavaScript:
-Pre-increment (++i) and post-increment (i++) operators are used to increase the value of a variable by 1. The difference lies in when the increment operation takes place:
+Pre-increment (++i) and post-increment (i++) operators are used to increase the value of a variable by 1.
+The difference lies in when the increment operation takes place:
 
 Pre-increment: Increments the value before the variable is used in an expression.
 
