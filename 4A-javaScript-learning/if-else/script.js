@@ -70,17 +70,17 @@
 
 // Q - take three side and chack it is triengle or not and print type of triangle ;
 
-// let a = prompt("enter a no: ");
-const a = 12;
-// let b = prompt("enter a no: ");
-const b = 13;
-// let c = prompt("enter a no: ");
-const c = 14;
+let a = prompt("enter a no: ");
+a = number(a);
+let b = prompt("enter a no: ");
+a = number(b);
+let c = prompt("enter a no: ");
+a = number(c);
 
 if (a + b > c && b + c > a && c + a > b) {
     console.log("yes , it is a triangle")
     if (a == b && b == c) {
-        console.log("equilater")
+        console.log("equilateral")
     }
     else if (a == b || b == c || c == a) {
         console.log("isosceles triangle")
