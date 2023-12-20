@@ -1,0 +1,89 @@
+Create the Example for Logical Operators 
+Difference between “ == “ and “ === “ operators.
+How many operators do we have in JS ?
+What is use of parseInt in js?
+Take input from user and find the odd and even number.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+answers ;
+
+1.  Create the Example for Logical Operators ?
+Logical Operators
+&& (and) - Returns TRUE if both operands are TRUE
+|| (or) - Returns TRUE if one of the operands is TRUE
+! (not) - Reverse the result, returns FALSE if the result is true
+
+&& (and) - Returns TRUE if both operands are TRUE
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(false && false); // false
+
+
+|| (or) - Returns TRUE if one of the operands is TRUE
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); // false
+
+
+! (not) - Reverse the result, returns FALSE if the result is true
+console.log(!true); // false
+console.log(!false); // true
+
+----------------------------------------------------------------------------------------------------------------------------
+2. Difference between “ == “ and “ === “ operators.
+== (Equal) - Returns TRUE if the operands are equal
+=== (Identical) - Returns TRUE if the operands are equal and of the same type
+
+== (Equal) - Returns TRUE if the operands are equal
+console.log(5 == 5); // true
+console.log(5 == "5"); // true
+console.log(5 == 8); // false
+console.log(5 == "8"); // false
+
+=== (Identical) - Returns TRUE if the operands are equal and of the same type
+console.log(5 === 5); // true
+console.log(5 === "5"); // false
+console.log(5 === 8); // false
+console.log(5 === "8"); // false
+
+----------------------------------------------------------------------------------------------------------------------------
+3. How many operators do we have in JS ?
+JavaScript has the following types of operators. This section describes the operators and contains information about operator precedence.
+
+Assignment operators
+Comparison operators
+Arithmetic operators
+Bitwise operators
+Logical operators
+String operators
+Conditional (ternary) operator
+Comma operator
+Unary operators
+Relational operators
+
+----------------------------------------------------------------------------------------------------------------------------
+4. What is use of parseInt in js?
+The parseInt() function parses a string and returns an integer. Here is an example:
+
+var a = parseInt("10"); // a will be 10
+var b = parseInt("10.00"); // b will be 10
+var c = parseInt("10.33"); // c will be 10
+var d = parseInt("34 45 66"); // d will be 34
+var e = parseInt(" 60 "); // e will be 60
+var f = parseInt("40 years"); // f will be 40
+var g = parseInt("He was 40"); // g will be NaN
+
+----------------------------------------------------------------------------------------------------------------------------
+5. Take input from user and find the odd and even number.
+var num = prompt("Enter a number: ");
+if(num % 2 == 0) {
+    console.log("The number is even.");
+}
+else {
+    console.log("The number is odd.");
+}
+
+----------------------------------------------------------------------------------------------------------------------------
