@@ -70,26 +70,47 @@
 
 // Q - take three side and chack it is triengle or not and print type of triangle ;
 
-let a = prompt("enter a no: ");
-a = number(a);
-let b = prompt("enter a no: ");
-a = number(b);
-let c = prompt("enter a no: ");
-a = number(c);
+// let a = prompt("enter a no: ");
+// a = Number(a);
+// let b = prompt("enter a no: ");
+// a = Number(b);
+// let c = prompt("enter a no: ");
+// a = Number(c);
 
-if (a + b > c && b + c > a && c + a > b) {
-    console.log("yes , it is a triangle")
-    if (a == b && b == c) {
-        console.log("equilateral")
-    }
-    else if (a == b || b == c || c == a) {
-        console.log("isosceles triangle")
-    }
-    else {
-        console.log("scalene triangle")
-    }
-}
-else {
-    console.log("no , it is not a triangle")
-}
+// if (a + b > c && b + c > a && c + a > b) {
+//     console.log("yes , it is a triangle")
+//     if (a == b && b == c) {
+//         console.log("equilateral")
+//     }
+//     else if (a == b || b == c || c == a) {
+//         console.log("isosceles triangle")
+//     }
+//     else {
+//         console.log("scalene triangle")
+//     }
+// }
+// else {
+//     console.log("no , it is not a triangle")
+// }
+
+// const a = Number(prompt("Enter a no: "));
+// const b = Number(prompt("Enter a no: "));
+// const c = Number(prompt("Enter a no: "));
+
+// if (a + b > c && b + c > a && c + a > b) {
+//     console.log("Yes, it is a triangle");
+
+//     if (a == b && b == c) console.log("Equilateral");
+//     else if (a == b || b == c || c == a) console.log("Isosceles triangle");
+//     else console.log("Scalene triangle");
+// } else {
+//     console.log("No, it is not a triangle");
+// }
+
+//Q - take a input from prompt and chack wether  a no is even or odd using ternary operator ;
+
+let a = prompt("enter a no: ");
+a = Number(a);
+let result = a % 2 == 0 ? "even" : "odd";
+console.log(result);
 
