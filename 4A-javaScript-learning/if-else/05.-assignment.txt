@@ -1,0 +1,13 @@
+//05-assignment 
+
+1.  Add two Numbers
+ var a = 5; 
+ var b = 10;
+var c = a + b;
+console.log(c);
+
+-------------------------------------------------------
+//2. Find if the conditions are obeyed or not?
+
+
+

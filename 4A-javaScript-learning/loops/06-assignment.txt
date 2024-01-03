@@ -1,0 +1,116 @@
+// Q 1. Find Grades
+
+
+var marks = +prompt("Enter your marks");
+if (marks >= 80 && marks <= 100) {
+    alert("You got A+ grade");
+}
+else if (marks >= 70 && marks <= 79) {
+    alert("You got A grade");
+}
+else if (marks >= 60 && marks <= 69) {
+    alert("You got B grade");
+}
+else if (marks >= 50 && marks <= 59) {
+    alert("You got C grade");
+}
+else if (marks >= 40 && marks <= 49) {
+    alert("You got D grade");
+}
+else if (marks >= 33 && marks <= 39) {
+    alert("You got E grade");
+}
+else if (marks >= 0 && marks <= 32) {
+    alert("You got F grade");
+}
+else {
+    alert("You have given an inappropriate percentage");
+}
+----------------------------------------------------------------------------------------------------------------------------
+//Q 2. Get Value
+
+
+var value1 = +prompt("Enter first value");
+var value2 = +prompt("Enter second value");
+if (value1 > value2) {
+    alert(value1 + " is greater than " + value2);
+}
+else if (value2 > value1) {
+    alert(value2 + " is greater than " + value1);
+}
+else if (value1 === value2) {
+    alert(value1 + " is equal to " + value2);
+}
+else {
+    alert("You have given an inappropriate value");
+}
+----------------------------------------------------------------------------------------------------------------------------
+// Q 3. Find the maximum out of three numbers
+
+
+var value1 = +prompt("Enter first value");
+var value2 = +prompt("Enter second value");
+var value3 = +prompt("Enter third value");
+if (value1 > value2 && value1 > value3) {
+    alert(value1 + " is greater than " + value2 + " and " + value3);
+}
+else if (value2 > value1 && value2 > value3) {
+    alert(value2 + " is greater than " + value1 + " and " + value3);
+}
+else if (value3 > value1 && value3 > value2) {
+    alert(value3 + " is greater than " + value1 + " and " + value2);
+}
+else if (value1 === value2 && value1 === value3) {
+    alert(value1 + " is equal to " + value2 + " and " + value3);
+}
+else {
+    alert("You have given an inappropriate value");
+}
+----------------------------------------------------------------------------------------------------------------------------
+// Q 4.Second Smallest integer value among three numbers ?
+
+var value1 = +prompt("Enter first value");
+var value2 = +prompt("Enter second value");
+var value3 = +prompt("Enter third value");
+if (value1 < value2 && value1 < value3) {
+    alert(value1 + " is smaller than " + value2 + " and " + value3);
+}
+else if (value2 < value1 && value2 < value3) {
+    alert(value2 + " is smaller than " + value1 + " and " + value3);
+}
+else if (value3 < value1 && value3 < value2) {
+    alert(value3 + " is smaller than " + value1 + " and " + value2);
+}
+else if (value1 === value2 && value1 === value3) {
+    alert(value1 + " is equal to " + value2 + " and " + value3);
+}
+else {
+    alert("You have given an inappropriate value");
+}
+----------------------------------------------------------------------------------------------------------------------------
+// Q 5.   check whether the triangle is acute or obtuse
+
+var angle1 = +prompt("Enter first angle");
+var angle2 = +prompt("Enter second angle");
+var angle3 = +prompt("Enter third angle");
+if (angle1 + angle2 + angle3 === 180) {
+    alert("This is a valid triangle");
+    if (angle1 < 90 && angle2 < 90 && angle3 < 90) {
+        alert("This is an acute triangle");
+    }
+    else if (angle1 === 90 || angle2 === 90 || angle3 === 90) {
+        alert("This is a right angle triangle");
+    }
+    else if (angle1 > 90 || angle2 > 90 || angle3 > 90) {
+        alert("This is an obtuse triangle");
+    }
+    else {
+        alert("You have given an inappropriate value");
+    }
+}
+else {
+    alert("This is not a valid triangle");
+}
+----------------------------------------------------------------------------------------------------------------------------
+
+
