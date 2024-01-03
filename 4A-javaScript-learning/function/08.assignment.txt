@@ -1,0 +1,96 @@
+JavaScript Questions:
+Write a JS code to print Even numbers in given array ,[13,23,12,45,22,48,66,100]
+Write a JS code to print a pattern using for loop 
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+1 2 3 4 5 6 
+1 2 3 4 5 6 7 
+1 2 3 4 5 6 7 8 
+Write a JS code to find the largest number in an array
+ [2, 45, 3, 67, 34, 567, 34, 345, 123];
+Write a JS code to find duplicate values in a given array 
+[4,2,34,4,1,12,1,4]
+Write a JS code to print a 2D array 
+arr = [[1, 2], 
+[3, 4], 
+[5, 6]]; 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+// q1- Write a JS code to print Even numbers in given array ,[13,23,12,45,22,48,66,100]
+
+var arr = [13,23,12,45,22,48,66,100];
+var even = [];
+for(var i=0; i<arr.length; i++){
+    if(arr[i]%2==0){
+        even.push(arr[i]);
+    }
+}
+console.log(even);
+
+----------------------------------------------------------------------------------------------------------------------------
+// q2- Write a JS code to print a pattern using for loop
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+1 2 3 4 5 6 
+1 2 3 4 5 6 7 
+1 2 3 4 5 6 7 8 
+
+for(var i=1; i<=8; i++){
+    var str = "";
+    for(var j=1; j<=i; j++){
+        str += j + " ";
+    }
+    console.log(str);
+}
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+// q3- Write a JS code to find the largest number in an array
+
+var arr = [2, 45, 3, 67, 34, 567, 34, 345, 123];
+var max = arr[0];
+for(var i=0; i<arr.length; i++){
+    if(arr[i]>max){
+        max = arr[i];
+    }
+}
+console.log(max);
+
+----------------------------------------------------------------------------------------------------------------------------
+// q4- Write a JS code to find duplicate values in a given array [4,2,34,4,1,12,1,4] 
+
+var arr = [4,2,34,4,1,12,1,4];
+var dup = [];
+for(var i=0; i<arr.length; i++){
+    for(var j=i+1; j<arr.length; j++){
+        if(arr[i]==arr[j]){
+            dup.push(arr[i]);
+        }
+    }
+}
+console.log(dup);
+
+----------------------------------------------------------------------------------------------------------------------------
+// q5- Write a JS code to print a 2D array
+arr = [[1, 2], 
+[3, 4], 
+[5, 6]]; 
+
+for(var i=0; i<arr.length; i++){
+    var str = "";
+    for(var j=0; j<arr[i].length; j++){
+        str += arr[i][j] + " ";
+    }
+    console.log(str);
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
