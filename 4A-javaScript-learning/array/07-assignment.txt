@@ -1,0 +1,75 @@
+//1.What is the syntax for the While loop in JavaScript ?
+
+while (condition) {
+// code block to be executed
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+//2.What is the syntax for the For loop in JavaScript?
+
+for (statement 1; statement 2; statement 3) {
+// code block to be executed
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+//3.What is a nested loop in JavaScript, and why would you use one?
+
+A nested loop is a loop inside a loop.
+The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+for (i = 0; i < 10; i++) {
+  for (j = 0; j < 10; j++) {
+    document.write(i + j);
+  }
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+4.What is an infinite loop in JavaScript, and how can it be avoided?
+
+An infinite loop is a loop that never ends.
+An infinite loop can be avoided by ensuring that the loop condition eventually evaluates to false.
+ex-
+for (i = 0; i < 10; i--) {
+  document.write(i);
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+5. How do you break out of two nested for loops?
+
+You can use the break statement to jump out of a loop.
+ex-
+for (i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
+6. What is the difference between the break statement and the continue directive?
+
+The break statement "jumps out" of a loop.
+The continue statement "jumps over" one iteration in the loop.
+ex-
+for (i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  text += "The number is " + i + "<br>";
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+7. Can you stop a loop based on a specific condition?
+
+Yes, you can stop a loop based on a specific condition by using the break statement.
+ex-
+for (i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
