@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 let hasDriversLicense = false;
 const passTest = true;
@@ -8,6 +8,6 @@ if(hasDriversLicense) console.log('I can drive.');
 
 // --------------------------------------------------------
 
-const interface = 'audio';
-const private =  534;
-// cost if = 23;
+// const interface = 'audio';
+// const private =  534;
+// // cost if = 23;
