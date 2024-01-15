@@ -1,6 +1,7 @@
 
-// function showAlert(msg){
-//     alert(msg);
+// function calcAge(birthYeah){
+//     const age  = 2037 - birthYeah;
+//     return age;
 // }
 
-// showAlert("hello...");
+// console.log(calcAge(2000));
