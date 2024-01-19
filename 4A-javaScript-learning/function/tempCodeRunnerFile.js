@@ -1,1 +1,1 @@
-let s = sum(num1, num2);
+zodo(5, 6)
