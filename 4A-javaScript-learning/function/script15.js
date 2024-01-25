@@ -79,9 +79,9 @@ let getInfo = function (student) {
 
 // getInfo(student1); 
 
-// let getInfoSt1 = getInfo.bind(null, student1);
-// getInfoSt1();
+let getInfoSt1 = getInfo.bind(null, student1);
+getInfoSt1();
 
-// let getInfoSt2 = getInfo.bind(null, student2);
-// getInfoSt2();
+let getInfoSt2 = getInfo.bind(null, student2);
+getInfoSt2();
 
